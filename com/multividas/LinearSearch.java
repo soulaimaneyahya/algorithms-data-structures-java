@@ -6,20 +6,25 @@ package com.multividas;
  */
 public class LinearSearch {
     public static void main(String[] args) {
-        int[] numbers = new int[500];
+        int[] numbers = new int[5000];
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = i + 1;
         }
 
-        int target = 204;
+        int target = 1829;
 
+        long startTime = System.nanoTime();
         int result = linearSearch(numbers, target);
+        long endTime = System.nanoTime();
 
         if (result != -1) {
             System.out.println("Element " + target + " found at index " + result);
         } else {
             System.out.println("Element " + target + " not found in the array");
         }
+
+        long executionTime = endTime - startTime;
+        System.out.println("Execution time: " + executionTime + " nanoseconds");
     }
 
     public static int linearSearch(int[] array, int target) {
