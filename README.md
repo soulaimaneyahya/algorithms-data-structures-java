@@ -22,10 +22,11 @@ Execution time: 3106 nanoseconds
 
 ## BinarySearch
 
-<img src="./public/x1.png" alt="BinarySearch" />
+<img src="./public/x2.png" alt="BinarySearch" />
 
 Running Main.java
 ```sh
 javac com/multividas/*.java
 java com/multividas/Main.java
 ```
+
