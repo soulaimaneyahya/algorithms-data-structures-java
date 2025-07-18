@@ -1,5 +1,12 @@
 package com.multividas;
 
+/**
+ * Efficient Search in Sorted Arrays
+ * Binary Search algorithm finds the position of a target value within a sorted
+ * array
+ * with logarithmic time complexity O(log n), by repeatedly dividing the search
+ * interval in half.
+ */
 public class BinarySearch {
     public static void main(String[] args) {
         int[] numbers = new int[5000];

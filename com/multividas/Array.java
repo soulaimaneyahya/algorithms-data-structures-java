@@ -34,21 +34,21 @@ public class Array {
         if (!(index >= 0 && index < count)) {
             throw new IllegalArgumentException("Index out of bounds");
         }
-    
+
         System.out.println("Removing at index: " + index);
-    
+
         // Shift elements to the left to fill the gap
         for (int i = index; i < count - 1; i++) {
             System.out.println("Deleting element at index: " + i);
             items[i] = items[i + 1];
         }
-    
+
         /**
          * Clear the last element
          * (optional but good practice)
          */
         items[count - 1] = 0;
-    
+
         count--;
     }
 

@@ -2,7 +2,8 @@ package com.multividas;
 
 /**
  * Frequent Access by Index
- * Arrays allow direct access to any element using its index with constant time complexity O(1).
+ * Arrays allow direct access to any element using its index with constant time
+ * complexity O(1).
  */
 public class LinearSearch {
     public static void main(String[] args) {
